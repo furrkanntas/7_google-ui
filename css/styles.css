@@ -8,4 +8,27 @@
 
 nav {
     display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 60px;
+    background-color: gray;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+li {
+    text-align: center;
+    padding: 14px 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
 }
